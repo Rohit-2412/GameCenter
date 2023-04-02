@@ -18,7 +18,7 @@ Game Center is a console application written in Java.
 1. Clone the repository by running the following command in your terminal:
 
 ```
-git clone https://github.com/Rohit-2412/Game-Center.git`
+git clone https://github.com/Rohit-2412/GameCenter
 ```
 
 2. Navigate to the directory where the repository was cloned.
