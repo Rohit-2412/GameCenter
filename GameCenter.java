@@ -3,10 +3,7 @@ import java.util.*;
 public class GameCenter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // display a horizontal line using unicode characters
-        System.out.println("\n════════════════════════════");
-        System.out.println(" Welcome to the Game Center!");
-        System.out.println("════════════════════════════\n");
+        System.out.println(" Welcome to the Game Center!\n");
 
         menu();
 
@@ -60,12 +57,11 @@ public class GameCenter {
 
     public static void menu() {
         // display a horizontal line with edged corners using unicode characters
-        System.out.println("╔════════ MENU ════════════╗");
-        System.out.println("║  1) Guess a number       ║");
-        System.out.println("║  2) Tic Tac Toe          ║");
-        System.out.println("║  3) Rock Paper Scissors  ║");
-        System.out.println("║  4) Math Quiz            ║");
-        System.out.println("║  5) Exit                 ║");
-        System.out.println("╚══════════════════════════╝");
+        System.out.println("MENU");
+        System.out.println("    1) Guess a number     ");
+        System.out.println("    2) Tic Tac Toe        ");
+        System.out.println("    3) Rock Paper Scissors");
+        System.out.println("    4) Math Quiz          ");
+        System.out.println("    5) Exit               ");
     }
 }
